@@ -19,9 +19,9 @@ const Collection = () => {
       const res = await fetch(import.meta.env.VITE_APP_API_URL + "/collection");
       const data = await res.json();
 
-      //   console.log(data)
+        // console.log(data.data)
 
-      setCarts(data);
+      setCarts(data.data);
     } catch (error) {}
   };
 
