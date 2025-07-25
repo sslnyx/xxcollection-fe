@@ -1,0 +1,166 @@
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Runtime data
+*.cjs
+*.mjs
+*.es
+*.js
+*.jsx
+*.tsx
+*.ts
+*.d.ts
+*.map
+*.wasm
+
+# Directory for compiled output
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite-specific
+.vite/
+
+# Mac specific
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Coverage directory
+coverage/
+
+# Test results
+*.tap
+*.xml
+*.html
+
+# Production build files
+/build
+/dist
+
+# Temporary files
+/tmp
+
+# Thumbnails
+.thumbnails
+
+# Package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Misc
+*.bak
+*.orig
+*.rej
+*.diff
+*.patch
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Local development server
+.dev.vars
+
+# VS Code extensions
+.vscode-test
+
+# Storybook
+.storybook/generated-stories-entry.js
+.storybook/main.js.autogen
+
+# Next.js specific
+.next/
+
+# Nuxt.js specific
+.nuxt/
+
+# SvelteKit specific
+.svelte-kit/
+
+# Gatsby specific
+.cache/
+public/
+
+# VuePress specific
+.vuepress/dist/
+
+# Docusaurus specific
+build/
+
+# Jekyll specific
+_site/
+
+# Eleventy specific
+_site/
+
+# Hugo specific
+public/
+resources/
+
+# Other build output
+/out
+
+# Debugging files
+npm-debug.log
+yarn-debug.log
+
+# IDE specific files
+.project
+.classpath
+.settings
+
+# OS generated files
+Thumbs.db
+
+# Compiled files
+*.pyc
+*.class
+
+# Logs
+*.log
+
+# Database files
+*.sqlite
+*.db
+
+# Uploads
+/uploads
+
+# Configuration files
+config.js.local
+
+# Other
+*.sublime-project
+*.sublime-workspace
+
